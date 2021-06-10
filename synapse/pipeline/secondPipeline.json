@@ -1,0 +1,17 @@
+{
+	"name": "secondPipeline",
+	"properties": {
+		"activities": [
+			{
+				"name": "waitAgain",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 5
+				}
+			}
+		],
+		"annotations": []
+	}
+}
