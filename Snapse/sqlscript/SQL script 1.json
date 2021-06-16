@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 1",
+	"properties": {
+		"content": {
+			"query": "CREATE TABLE [dbo].[MyTable]\n(\n    ID int NOT NULL,\n    Name VARCHAR(100) NOT NULL,\n    CreatedDateTime DATETIME NOT NULL\n)\nWITH\n(\n    DISTRIBUTION = HASH (ID),\n    CLUSTERED COLUMNSTORE INDEX\n)\nGO\n",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"poolName": "cstdevsp",
+				"databaseName": "cstdevsp"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
