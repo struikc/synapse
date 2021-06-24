@@ -1,0 +1,17 @@
+{
+	"name": "PL_waitEvenMore",
+	"properties": {
+		"activities": [
+			{
+				"name": "watiEvenMore",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 13
+				}
+			}
+		],
+		"annotations": []
+	}
+}
