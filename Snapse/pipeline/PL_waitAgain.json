@@ -1,0 +1,17 @@
+{
+	"name": "PL_waitAgain",
+	"properties": {
+		"activities": [
+			{
+				"name": "waitAgain",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 7
+				}
+			}
+		],
+		"annotations": []
+	}
+}
