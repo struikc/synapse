@@ -1,0 +1,17 @@
+{
+	"name": "PL_somethingElse",
+	"properties": {
+		"activities": [
+			{
+				"name": "waitSomethingElse",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 2
+				}
+			}
+		],
+		"annotations": []
+	}
+}
