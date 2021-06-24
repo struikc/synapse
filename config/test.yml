@@ -1,0 +1,8 @@
+jobs:
+- job: MyJob
+  displayName: My First Job
+  continueOnError: true
+  workspace:
+    clean: outputs
+  steps:
+  - script: echo My first job
